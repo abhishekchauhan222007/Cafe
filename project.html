@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Local Cafe</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <header>
+        <h1>Our Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#location">Location</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="menu-items">
+         <center><h2>Delicious Dishes</h2>
+
+
+            <div class="menu-item">
+                <h3>Pasta Primavera</h3>
+                <img src="pasta.jpg" alt="Pasta Primavera">
+                <p>$12.99</p>
+                <p>A delightful mix of fresh vegetables and herbs sautéed with pasta, topped with parmesan.</p>
+            </div>
+
+            <div class="menu-item">
+                <h3>Grilled Salmon</h3>
+                <img src="Grilled Salmon.jpg" alt="Grilled Salmon">
+                <p>$19.99</p>
+                <p>Perfectly grilled salmon served with a side of seasonal vegetables and lemon butter sauce.</p>
+            </div>
+
+            <div class="menu-item">
+                <h3>Chocolate Cake</h3>
+                <img src="chocolate-cake.jpg" alt="Chocolate Cake">
+                <p>$5.99</p>
+                <p>Rich, moist chocolate cake topped with decadent chocolate frosting. A must-try for chocolate lovers!</p>
+            </div>
+
+            <div class="menu-item">
+                <h3>Caesar Salad</h3>
+                <img src="caesar-salad.jpg" alt="Caesar Salad">
+                <p>$9.99</p>
+                <p>Fresh romaine lettuce, croutons, and parmesan cheese tossed in creamy Caesar dressing.</p>
+            </div>
+
+            <div class="menu-item">
+                <h3>Margherita Pizza</h3>
+                <img src="Margherita-Pizza-Recipe-03.jpg" alt="Margherita Pizza">
+                <p>$14.99</p>
+                <p>Classic pizza topped with fresh mozzarella, tomatoes, and basil, drizzled with olive oil.</p>
+            </div>
+
+            <div class="menu-item">
+                <h3>Espresso</h3>
+                <img src="Espresso.jpg" alt="Espresso">
+                <p>$3.50</p>
+                <p>Rich and bold espresso made from freshly ground coffee beans.</p>
+            </div>
+
+            <!-- Continue adding more dishes as needed -->
+        </section>
+
+        <section id="reservation">
+            <h2>Make a Reservation</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="date">Date:</label>
+                <input type="date" id="date" required>
+                
+                <label for="time">Time:</label>
+                <input type="time" id="time" required>
+                
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" required>
+                
+                <button type="submit">Reserve</button>
+            </form>
+        </section>
+
+        <section id="location">
+            <h2>Our Location</h2>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345095713!2d144.9537353153171!3d-37.81627997975186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f1c7b47%3A0xce9eb6c61a5dad9a!2sLocal%20Cafe!5e0!3m2!1sen!2sus!4v1633369716904!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <blockquote>
+                <p>"The food is exceptional! The atmosphere is warm and welcoming."</p>
+                <cite>- Jamie</cite>
+            </blockquote>
+            <blockquote>
+                <p>"A hidden gem! I can't wait to come back!"</p>
+                <cite>- Alex</cite>
+            </blockquote>
+            <blockquote>
+                <p>"Best cafe experience I've had in a long time!"</p>
+                <cite>- Taylor</cite>
+            </blockquote>
+            <!-- You can add more testimonials -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Local Cafe. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
